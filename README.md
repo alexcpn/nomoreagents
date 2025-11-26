@@ -131,3 +131,7 @@ tool_command = ToolCall(
  tool_result, succeeded = await tool_command.execute(payload_json)
 
  ```
+
+ PyPy Repo link
+
+ https://pypi.org/project/nmagents/0.1.0/

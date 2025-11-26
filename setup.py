@@ -24,13 +24,11 @@ setup(
     long_description_content_type="text/markdown",
     author="Alex Punnen",
     license="MIT",
+    # Disable automatic License-File metadata to stay compatible with older twine/pkginfo
+    license_files=(),
     packages=find_packages(exclude=("tests", "examples", "docs")),
     python_requires=">=3.10",
-    install_requires=[
-        "tiktoken>=0.5",
-        "PyYAML>=6.0",
-        "openai>=1.0.0",
-    ],
+    install_requires=[],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
