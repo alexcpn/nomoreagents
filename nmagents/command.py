@@ -9,19 +9,9 @@ License: MIT License
 """
 
 import json
-import tiktoken
 from abc import ABC, abstractmethod
 import logging as log
 
-#--------------------------------------------------------------------
-# Helper Classes
-#--------------------------------------------------------------------
-
-
-def num_tokens_from_string(string: str, encoding_name: str = "gpt-3.5-turbo")  -> int:
-    encoding = tiktoken.encoding_for_model(encoding_name)
-    num_tokens = len(encoding.encode(string))
-    return num_tokens
 
 #--------------------------------------------------------------------
 #  Command Classes
