@@ -75,6 +75,7 @@ Just plain MCP and API calls combined with good old-fashioned programming is eno
 
 ```
 pip install nmagents
+uv add nmagents
 from nmagents.command import CallLLM, ToolCall, 
 ```
 
@@ -134,4 +135,4 @@ tool_command = ToolCall(
 
  PyPy Repo link
 
- https://pypi.org/project/nmagents/0.1.0/
+ https://pypi.org/project/nmagents/0.1.`/

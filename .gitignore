@@ -1,0 +1,3 @@
+nmagents/__pycache__/*
+dist/*
+nmagents.egg-info/*
